@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # loading the saved model
-loaded_model = pickle.load(open('LSVC_model.pkl', 'rb'))
+loaded_model = pickle.load(open('Logistic_Regression.pkl', 'rb'))
 
 # write prediction function
 def diabetes_prediction(input_data):
